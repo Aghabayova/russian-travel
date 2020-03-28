@@ -1,0 +1,15 @@
+
+ .video__play-icon{
+    background-image: url(../../../images/__icon_play.svg);
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    -webkit-animation: video__play-icon 1s ease-in-out infinite alternate;
+            animation: video__play-icon 1s ease-in-out infinite alternate;
+    
+
+  
+}
+

@@ -1,0 +1,15 @@
+.place__image{
+    display: block;
+    width: 100%;
+    max-width: 460px;
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .place__image{
+       margin: 24px 0 0;
+     
+    }
+}
+

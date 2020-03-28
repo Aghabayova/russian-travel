@@ -1,0 +1,52 @@
+
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__image-caption/lead__image-caption.css);
+
+
+.lead{
+     
+    display: -webkit-box;
+    
+    display: -webkit-flex;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 985px;
+    margin: 0 auto;
+    color: white; 
+}
+
+@media screen and (max-width: 1024px) {
+    .lead{
+        max-width: 928px;
+        
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead{
+        max-width: 768px;
+      
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .lead{
+        max-width: 375px;
+      
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead{
+        max-width: 320px;
+      
+    }
+}

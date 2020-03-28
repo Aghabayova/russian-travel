@@ -1,0 +1,18 @@
+.comment__quote{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    max-width: 382px;
+}
+@media screen and (max-width: 768px) {
+    .comment__quote{
+        -webkit-box-ordinal-group: 4;
+        -webkit-order: 3;
+            -ms-flex-order: 3;
+                order: 3;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                    -ms-grid-row-align: center;
+                align-self: center;
+       }
+}

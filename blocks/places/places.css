@@ -1,0 +1,10 @@
+.places{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 984px));
+    row-gap: 72px;
+    max-width: 985px;
+    margin: 0 auto;
+    color: white; 
+
+}
