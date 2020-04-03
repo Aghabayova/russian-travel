@@ -44,9 +44,19 @@
         
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .cover__title{
         max-width: 500px;
+        top: 140px;
+        font-size: 32px;
+        line-height: 35px;
+        left:30%;
+        
+    }
+}
+@media screen and (max-width: 500px) {
+    .cover__title{
+        max-width: 150px;
         top: 140px;
         font-size: 32px;
         line-height: 35px;

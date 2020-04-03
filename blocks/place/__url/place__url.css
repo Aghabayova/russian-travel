@@ -16,3 +16,10 @@
     opacity: 0.7;
 
 }
+
+@media screen and (max-width: 550px) {
+    .place__url{
+       
+        font-size: 14px;
+    }
+}

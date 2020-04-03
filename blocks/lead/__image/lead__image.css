@@ -1,11 +1,14 @@
 .lead__image{
     max-width: 100%;
     height: auto;
+    background-image: url(../../../images/travel-map.jpg);
+    object-fit: cover;
+    width: 100%;
 }
 @media screen and (max-width: 768px) {
     .lead__image{
         max-width: 768px;
-        height: 420px;
+  
         
         
     }
@@ -13,20 +16,20 @@
 @media screen and (max-width: 450px) {
     .lead-image{
         max-width: 375px;
-       height: 211px;
+     
       
       
     }
 }
 @media screen and (max-width: 375px) {
     .lead-image{
-        max-width: 450px;
+        max-width: 375px;
        
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
     .lead-image{
         max-width: 320px;
-       height: 211px;
+      
     }
 }

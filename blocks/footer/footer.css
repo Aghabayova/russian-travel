@@ -23,15 +23,15 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     .footer{
-        max-width: 1000px;
+        max-width: 1184px;
         
     }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1024px) {
     .footer{
-        max-width: 929px;
+        max-width: 928px;
         
     }
 }
@@ -48,11 +48,11 @@
     }
 }
  
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .footer{
       
         max-width: 282px;
-        height: 312px;
+      
         display: block;
        
         -webkit-box-align: left;

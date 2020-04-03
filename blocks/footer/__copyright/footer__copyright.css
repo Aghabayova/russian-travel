@@ -17,21 +17,27 @@
     -webkit-align-self: flex-end;
         -ms-flex-item-align: end;
             align-self: flex-end;
-    margin-bottom: 40px;
+            padding-bottom: 20px;
+    
 
+    
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .footer__copyright{
-        max-width: 282;
-        height: 13px;
+    
+       padding-bottom: 4px;
         
     }
 }
+
 @media screen and (max-width: 375px) {
     .footer__copyright{
        display: block;
-       margin-top: 50px;
+       margin-top: 40px;
+       margin-bottom: 0;
+       padding-bottom: 24px;
+     
         
     }
 }

@@ -1,4 +1,4 @@
-@import url(./_active/header__lang_active.css);
+
 
 .header__lang{
     text-decoration: none;
@@ -13,4 +13,12 @@
     -webkit-transition: 0.3;
     -o-transition: 0.3;
     transition: 0.3;
+}
+
+@media screen and (max-width: 375px) {
+    .header.lang{
+        font-size: 18px;
+        line-height: 17px;
+        
+    }
 }

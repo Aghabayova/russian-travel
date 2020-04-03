@@ -23,3 +23,8 @@
     }
 
 }
+@media screen and (max-width: 375px) {
+    .comments__item:first-of-type{
+        margin-top: -40px;
+    }
+}

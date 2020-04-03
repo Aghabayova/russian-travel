@@ -12,23 +12,25 @@
     list-style-type: none;
     text-decoration: none;
     font-size: 24px;
-    line-height: 42px;
+    line-height: 41px;
     font-weight: normal;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding-left: 0;
+    max-width: 828px;
+   
 
 }
 @media screen and (max-width: 768px) {
     .footer__nav-links{
         font-size: 16px;
-        font-size: 27px;
+        line-height: 27px;
         
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 550px) {
     .footer__nav-links{
        
         display: block;
