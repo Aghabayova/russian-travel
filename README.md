@@ -18,7 +18,7 @@
 
 
 
-* [Ссылка на готовый проект](https://aghabayova.github.io/russian-travel/)
+* [Link to the finished project](https://aghabayova.github.io/russian-travel/)
 
 
 
